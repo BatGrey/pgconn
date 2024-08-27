@@ -19,3 +19,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+replace(
+	github.com/jackc/pgmock v0.0.0-20210724152146-4ad1a8207f65 => github.com/BatGrey/pgmock v0.0.0-20240827013146-37e66aacaa70
+)
